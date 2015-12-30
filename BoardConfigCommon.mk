@@ -102,9 +102,6 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 # Malloc
 MALLOC_IMPL := dlmalloc
 
-# Power
-TARGET_POWERHAL_VARIANT := qcom
-
 # Qualcomm support
 BOARD_USES_QC_TIME_SERVICES := true
 ifneq ($(QCPATH),)
