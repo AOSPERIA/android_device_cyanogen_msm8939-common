@@ -147,4 +147,4 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/cyanogen/msm8939-common/BoardConfigVendor.mk
+-include vendor/oppo/msm8939-common/BoardConfigVendor.mk
